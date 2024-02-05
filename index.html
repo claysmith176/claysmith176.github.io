@@ -6,33 +6,34 @@
 -->
 <html>
 	<head>
-		<title>Hyperspace by HTML5 UP</title>
+		<title>Clay Smith</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/devicon.min.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 		<div style = "justify-content: space-between; overflow: auto;">
 			<!-- Sidebar -->
 			<div class="colomn-pad-sidebar">	
-				<section id="sidebar">
-					<table style="border: 0; height: 100%;">
+				<section id="sidebar" style="min-width: 100%;">
+					<table style="border: 0; height: 100%; table-layout: fixed;">
 						<tr style="background-color: rgb(255 255 255 / 0%); border: rgb(255 255 255 / 0%);">
-							<td style="vertical-align: top;">
+							<td style="vertical-align: top; padding-top: 0.0em; padding-bottom: 0.0em;">
 							<div class="inner" style="justify-content: space-between;">
 								<h1>
 									Clay Smith
 								</h1>
 								<h4>
-									Computer Science Student at <br> Georgia Institute of Technology
+									Computer Science Student at <br> Georgia Tech
 								</h4>
 								<nav>
 									<ul>
 										<li><a href="#intro">Welcome</a></li>
-										<li><a href="#one">Projects</a></li>
-										<li><a href="#two">Projects</a></li>
-										<li><a href="#three">Skills</a></li>
+										<li><a href="#experience">Experience</a></li>
+										<li><a href="#projects">Projects</a></li>
+										<li><a href="#skills">Skills</a></li>
 									</ul>
 								</nav>
 							</div>
@@ -60,25 +61,48 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1>Hyperspace</h1>
-							<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
-							and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+							<h1>Welcome</h1>
+							<p style="font-size: 1.0em;">I’m Clay Smith and I’m currently pursuing a bachelor's degree in computer science at the Georgia Institute of Technology. I’m eager to start my career in software development this upcoming summer. Previously I’ve worked for Azenta Life Sciences as a software development intern. In this role I had the opportunity to hone my web development skills and learn the ASP.NET framework. I have also worked in various personal projects that allowed me to pursue other personal interests. These projects have allowed me to gain more experience writing and designing software and have allowed me to learn about many topics from android development to computer graphics. For a deeper dive into my skill set, professional background, and project portfolio, I invite you to continue exploring below.</p>
 							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Learn more</a></li>
+								<li><a href="#experience" class="button scrolly">Learn more</a></li>
 							</ul>
 						</div>
 					</section>
 
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
+					<section id="experience" class="wrapper style3 fullscreen fade-up">
+	
+						<!-- <div class="yui-u first">
+							
+						</div>// .yui-u -->
+						
+						<div class="inner">
+							<h1>Experience</h1>
+
+							<div class="job">
+								<div style="text-align: left">
+									<h2>Azenta Life Sciences</h2>
+									<h4 style="float: right;">June 2022 - Aug 2022</h4>
+								</div>
+								<h3>IT Application Development Intern</h3>
+									<ul>
+										<li>Employed C# to assist in developing the company’s online ordering and management system built on the ASP.NET framework</li>
+										<li>Debugged and maintained the web application solving numerous front and back end errors as well as updating various document templates, email templates and email parameters</li>
+										<li>Worked with internal clients to develop reports using SQL Server Reporting Services that allowed the client to quickly access valuable information about customers and company attributes.</li>
+									</ul>
+							</div>
+						</div>
+					</section>
+
+				<!-- Projects -->
+					<section id="projects" class="wrapper style2 spotlights">
 						<section>
 							<a href="#" class="image">
 								<img src="images/Cornell Box.png" alt="" data-position="center center" style="height: 100%;"/>
 							</a>
 							<div class="content">
 								<div class="inner">
-									<h2>Sed ipsum dolor</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Ray Tracer   <a href="https://github.com/claysmith176/Computer-Graphics" class="icon brands fa-github"><span class="label">GitHub</span></a></h2>
+									<p>Developed a path tracer using C++ capable of simulating lighting effects such as global illumination, refraction, and diffuse and specular reflections to create realistic images</p>
 									<ul class="actions">
 										<li><a href="generic.html" class="button">Learn more</a></li>
 									</ul>
@@ -86,11 +110,11 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/llvm.jpg" alt="" data-position="top center" style="height: 100%;" /></a>
+							<a href="#" class="image"><img src="images/launcher_mountain-web.png" alt="" data-position="top center" style="height: 100%;" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Feugiat consequat</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Mountain Climber <a href="https://github.com/claysmith176/Mountain_Climber" class="icon brands fa-github"><span class="label">GitHub</span></a></h2>
+									<p>An Android app made using Java and Android Studio allowing users to track and record their routes and progress as they hike various mountains.</p>
 									<ul class="actions">
 										<li><a href="generic.html" class="button">Learn more</a></li>
 									</ul>
@@ -98,11 +122,11 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" style="height: 100%;"/></a>
+							<a href="#" class="image"><img src="images/llvm.jpg" alt="" data-position="25% 25%" style="height: 100%;"/></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Oat Compiler</h2>
+									<p>Developed a compiler and typechecker in OCaml for the oat programming language as part of a class on compilers. Used LLVM as the intermediate representation.</p>
 									<ul class="actions">
 										<li><a href="generic.html" class="button">Learn more</a></li>
 									</ul>
@@ -112,56 +136,81 @@
 					</section>
 
 				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
+					<section id="skills" class="wrapper style3 fade-up">
 						<div class="inner">
-							<h2>What we do</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<h1>Skills</h1>
+							<!-- <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p> -->
 							<div class="features">
 								<section>
 									<span class="icon solid major fa-code"></span>
-									<h3>Lorem ipsum amet</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Programming Languages</h3>
+										<p style="text-align: center;">
+										<img class="icon-skill" src = "assets/icons/c.svg"/>
+										<img class="icon-skill" src = "assets/icons/csharp.svg"/>
+										<img class="icon-skill" src = "assets/icons/c++.svg"/>
+										<img class="icon-skill" src = "assets/icons/java.svg"/>
+										<img class="icon-skill" src = "assets/icons/python.svg"/>
+										<img class="icon-skill" src = "assets/icons/css.svg"/>
+										<img class="icon-skill" src = "assets/icons/html.svg"/>
+										</p>
 								</section>
 								<section>
-									<span class="icon solid major fa-lock"></span>
-									<h3>Aliquam sed nullam</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<span class="icon solid major fa-cogs"></span>
+									<h3>Frameworks</h3>
+									<p style="text-align: left;">
+										<img class="icon-skill" src = "assets/icons/android.svg"/>
+										<img class="icon-skill" src = "assets/icons/angular.svg"/>
+										<img class="icon-skill" src = "assets/icons/aspnet.svg"/>
+									</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Technologies</h3>
+									<p style="text-align: center;">
+										<img class="icon-skill" src = "assets/icons/amazon.svg"/>
+										
+										<img class="icon-skill" src = "assets/icons/docker.svg"/>
+										<img class="icon-skill" src = "assets/icons/microsoft-sql-server.svg"/>
+										<img class="icon-skill" src = "assets/icons/git.svg"/>
+									</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-desktop"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Operating Systems</h3>
+									<p style="text-align: left;">
+										<img class="icon-skill" src = "assets/icons/linux.svg"/>
+										<img class="icon-skill" src = "assets/icons/windows-applications.svg"/>
+									</p>
 								</section>
 							</div>
-							<ul class="actions">
+							<!-- <ul class="actions">
 								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul>
+							</ul> -->
 						</div>
 					</section>
 
 				<!-- Three -->
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
-							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<h2>Contact Info</h2>
+							<!-- <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p> -->
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
+									<ul class="contact">
+										<li>
+											<h3>Address</h3>
+											<span>Atlanta, Georgia</span>
+										</li>
+
+										<li>
+											<h3>Documents</h3>
+												<p>	
+													<a href="assets/documents/Clay_Smith_Resume.pdf" download> Resume</a> <br>
+													<a href="assets/documents/Cover_Letter.pdf" download> Cover Letter</a>
+												</p>
+										</li>
+									</ul>
+									<!-- <form method="post" action="#">
 										<div class="fields">
 											<div class="field half">
 												<label for="name">Name</label>
@@ -179,32 +228,24 @@
 										<ul class="actions">
 											<li><a href="" class="button submit">Send Message</a></li>
 										</ul>
-									</form>
+									</form> -->
 								</section>
 								<section>
 									<ul class="contact">
-										<li>
+										<!-- <li>
 											<h3>Address</h3>
-											<span>12345 Somewhere Road #654<br />
-											Nashville, TN 00000-0000<br />
-											USA</span>
-										</li>
+											<span>Atlanta, Georgia</span>
+										</li> -->
 										<li>
 											<h3>Email</h3>
-											<a href="#">user@untitled.tld</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>(000) 000-0000</span>
+											<a href="#">claysmith176@gmail.com</a>
 										</li>
 										<li>
 											<h3>Social</h3>
 											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+												<li><a href="https://github.com/claysmith176" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="mailto:claysmith176@gmail.com" class="fa fa-envelope"><span class="label">Mail</span></a></li>
+												<li><a href="https://www.linkedin.com/in/Clay-E-Smith/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 											</ul>
 										</li>
 									</ul>
